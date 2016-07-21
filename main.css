@@ -1,0 +1,1469 @@
+@import "http://webfonts.ru/import/Roboto.css";
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 300;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 700;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: italic;
+    font-weight: 400;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-It.woff) format('woff');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 200;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: italic;
+    font-weight: 600;
+    src: url(file:///C:/Users/kinom/Desktop/Project/fonts/SourceSansPro-Semibold.woff) format('woff');
+}
+html, body, h1, h2, h3, h4, h5, h6, h7, h8, ul, ol, li, p, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+body {
+    font-size: 100%
+    width: 100%;
+}
+
+li {
+	list-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+div, nav, section, header, aside {
+	display: block;
+}
+
+a {
+	font-family: 'Roboto';
+	color: #333333;
+}
+
+select {
+	width: 100%;
+
+	vertical-align: baseline;
+
+	font-family: 'Roboto';
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #333333;
+
+    /*background: url() no-repeat right #fbfbfb;*/
+}
+
+
+textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    background: #f2f2f2;
+
+    box-sizing: border-box;
+    padding: 5px 12px;
+    vertical-align: top;
+}
+
+textarea:focus, input:focus {
+    background: #f2f2f2;
+    
+    border: 1px solid #0a5181;
+    border-radius: 0px;
+}
+
+p{
+	font-family: 'Roboto';
+}
+
+aside, footer, header, nav, section {
+    display: block;
+}
+
+div { display: block; }
+
+
+/*FONTS*/
+.title1{
+	font-family: 'Roboto';
+	font-size: .85em;
+    font-weight: bold;
+	text-transform: uppercase;
+	color: #0a5181;
+}
+.title2{
+	font-family: 'Roboto';
+	font-size: .85em;
+    font-weight: normal;
+	color: #888888;
+}
+.title2 a:hover {
+	border-bottom: 1px dotted #888888;
+}
+.title3 {
+	font-family: 'Roboto';
+	font-size: 1.19em;
+	font-weight: 300;
+	color: #fbfbfb;
+	text-transform: uppercase;
+}
+.title-colored {
+    font-family: 'Roboto';
+	font-size: 1.7em;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #0a5181;
+}
+
+.title-global-course {
+    font-family: 'Roboto';
+    display: block;
+    float: left;
+    font-size: 1em;
+    color: #333333;
+    letter-spacing: 0;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.title-accordion1{
+    font-family: 'Roboto';
+    font-size: 1.08em;
+    font-weight: normal;
+    color: #333333;
+}
+
+.title-accordion1-i {
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: normal;
+    color: #333333;
+}
+
+.title-accordion2{
+    font-family: 'Roboto';
+    font-size: 0.93em;
+    font-weight: bold;
+    color: #0a5181;
+}
+
+.text-accordion1 {
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #323232;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-size: 1.15em;
+    font-weight: medium;
+    color: #f0a612;
+}
+
+.link1 {
+    font-family: 'Roboto';
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #323232;    
+}
+
+.material-icons {
+    font-size: inherit;
+}
+
+
+/*all positions*/
+.view-login, .view-register, .view-passwordreset {
+    background: #fbfbfb;
+}
+.view-login header.global nav, .view-register header.global nav  {
+    width: 80.6722689%;
+
+    max-width: 1190px;
+    min-width: 760px;
+}
+.view-login .container, .view-register .container, .view-login .introduction, .view-register .introduction {
+	padding: 1.68067226% 1.68067226% 3.36134453% 1.68067226%;
+
+	box-sizing: border-box;
+    margin: 0 auto;
+    width: 80.6722689%;
+    background: #fbfbfb;
+
+    max-width: 1180px;
+    min-width: 760px;
+}
+.container {
+	box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 2.5210084%;
+
+    min-width: 760px;
+    max-width: 1190px;
+    width: 80.67226289%;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+
+
+
+/*Header*/
+header.global {
+	border-bottom: 1px solid #8a8c8f;
+	box-shadow: 0 1px 2px 0 rgba(136,136,136,0.2);
+    height: auto;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+header.global nav {
+    height: auto;
+    margin: 0 auto;
+    width: 80.6722689%;
+    box-sizing: border-box;
+    padding: 18px 10px;
+    max-width: 1190px;
+    min-width: 760px;
+
+    overflow: hidden;
+}
+header.global p.logo {
+    float: left;
+    margin: 0 2.94117647% 0 0;
+    position: relative;
+}
+header.global p.logo img {
+	height: 40px;
+    overflow: hidden;
+}
+header.global ul.nav-global {
+    margin-top: 11px;
+    list-style: none;
+    display: inline;
+}
+header.global .left.nav-global {
+    float: left;
+}
+header.global .right.nav-global {
+    float: right;
+}
+header.global .nav-global li {
+    display: inline-block;
+}
+header.global .nav-global li a {
+	font-style: 'Roboto';
+    display: block;
+    padding: 5px 10px;
+
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+
+header.global.slim {
+    box-shadow: 0 1px 2px #dadada;
+    height: auto;
+    padding: 7px 0 10px 0;
+    background: #fff;
+
+    overflow: hidden;
+}
+
+header.global.slim nav {
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+header.global.slim p.logo {
+    margin: 0 10px 0 0;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+header.global.slim p.logo img {
+    height: 34px;
+}
+
+
+header.global.slim p.logo:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    background-image: -webkit-linear-gradient(#d9d9d9 0%, #d9d9d9);
+    height: 100%;
+    width: 1px;
+}
+
+
+header.global.slim p.title-global-course .provider {
+    font-weight: bold;
+}
+header.global.slim p.title-global-course {
+    margin-top: 9px;
+    margin-bottom: 0;
+    text-transform: none;
+    overflow: hidden;
+}
+header.global.slim .nav-global {
+    display: none;
+}
+
+header.global .user {
+    float: right;
+    margin-top: 4px;
+}
+
+header.global .user > .primary {
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+
+header.global .primary > a .material-icons {
+    font-size: inherit;
+}
+
+header.global .user a.user-link {
+    position: relative;
+}
+
+header.global .primary > a {
+    background-color: #323232;
+    
+    box-sizing: border-box;
+    height: 32px;
+    
+    display: inline-block;
+
+    padding: 7px 12px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+header.global .primary a:first-child {
+    border-right: 1px solid #888888;
+}
+
+header.global .primary a .title3 {
+    font-size: 0.95em;
+    height: 16px;
+    
+    display: inline-block;
+    overflow: hidden;
+    
+    margin-left: 3px;
+}
+
+header.global .primary a.dropdown {
+    padding: 7px 8px;
+}
+
+header.global .primary a .material-icons {
+    color: #fff;
+}
+
+header.global .primary a:hover {
+    background-color: #fff;
+    border: 1px solid #666666;
+}
+header.global .primary a:hover .title3, header.global .primary a:hover .material-icons {
+    color: #323232;
+}
+header.global .primary a:last-child:hover, header.global .primary a:last-child:active {
+    background-color: #fff;
+    border: 1px solid #666666;
+    position: relative;
+} 
+
+header.global .user .dropdown-menu {
+    display: block;
+
+}
+header.global .user .dropdown-menu li {
+    position: relative;
+}
+
+header.global .user .dropdown-menu li a {
+    background: #fff;
+    border: 1px solid #666666;
+    position: absolute;
+    right: 0px;
+    top: 30pxpx;
+
+    padding: 7px 12px;
+
+    display: block;
+}
+header.global .user .dropdown-menu li a:hover {
+    background: #323232;
+    border: none;
+    color: #fff;
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+    padding: 7px 12px;
+
+}
+
+
+
+
+
+/*MAIN*/
+/*header*/
+ .view-login .content-wrapper, .view-register .content-wrapper {
+    padding-bottom: 0;
+
+    position: relative;
+}
+
+.view-login .introduction, .view-register .introduction {
+    background: none;
+    position: relative;
+    display: block;
+
+    width: 80.6722689%;
+    
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+.view-login .introduction header, .view-register .introduction header {
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.content-wrapper {
+	box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    background: #fbfbfb;
+    padding-bottom: 40px;
+
+	clear: both;
+}
+#content {
+	overflow: hidden;
+}
+
+.view-register .introduction header, .view-login .introduction header {
+    position: relative;
+
+    overflow: hidden;
+
+    margin: 50px 0 20px 2.5210084%;
+
+
+    height: auto;
+
+}
+/*.view-register .introduction header .title, .view-login .introduction header .title {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 100%;
+}*/
+.view-login .introduction header p, .view-register .introduction header p {
+	box-sizing: border-box;
+    height: auto;
+    top: 0;
+    text-align: left;
+}
+.view-register .introduction header .title .title-colored, .view-login .introduction header .title .title-colored,
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub  {
+	display: block;
+	letter-spacing: 0;
+}
+.view-register .introduction header .title .title-colored, .view-login .introduction header .title .title-colored {
+	font-weight: bold;
+}
+#login-title-sub {
+    margin-left: 0;
+}
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub {
+	font-size: 1.28em;
+	line-height: 1.31;
+	font-weight: normal;
+	text-transform: lowercase;	
+	color: #666666;
+
+	margin-top: 10px;
+
+}
+
+
+.wrapper-course-material {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.wrapper-course-material .course-material {
+    margin: 0 auto;
+    
+    min-width: 760px;
+    max-width: 1190px;
+    width: 80.67226289%;
+
+    overflow: hidden;
+}
+
+.wrapper-course-material ul.course-tab {
+    margin-left: 10px;
+    padding: 15px 0 15px 0;
+    overflow: hidden;
+}
+
+.wrapper-course-material ul.course-tab li {
+    float: left;
+    margin-right: 6px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper-course-material ul.course-tab li a {
+    position: relative;
+
+    display: block;
+    text-align: center;
+    padding: 13px 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+.wrapper-course-material ul.course-tab li a:hover {
+    background-color: #fff;
+    border: 1px solid #888888;
+    padding: 12px 14px;
+}
+
+.wrapper-course-material ul.course-tab li a.active {
+    background-color: #f0a612;
+}
+.wrapper-course-material ul.course-tab li a.active p {
+    color: #fbfbfb;
+}
+.wrapper-course-material ul.course-tab li a.active:hover {
+    color: #323232;
+}
+
+/*content*/
+#content-form {
+    width: auto;
+    overflow: hidden;
+}
+
+.login .content, .register .content {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 3.389%;
+    width: 46.95%;
+
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+.login .content, .login aside, .register .content, .register aside {
+    box-sizing: border-box;
+}
+
+
+#login-form {
+    position: relative;
+    border: 1px solid #999999;
+    padding: 35px 5.01635768%;
+    display: inline-block;
+}
+
+fieldset {
+    display: block;
+    margin: 0;
+    background-color: #fff; 
+}
+
+#login-form-title {
+    color: #323232;
+    padding: 8px 18px;
+    background: #323232;
+    text-align: left;
+	
+}
+#login-form .title3 {
+	/*letter-spacing: 1px;*/
+	color: #fbfbfb;
+}
+
+.login fieldset .group-form, .register fieldset .group-form, #forgot-password-modal #password-reset fieldset .group-form  {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.login fieldset .list-input, .register fieldset .list-input {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.login fieldset .field, .register fieldset .field , #forgot-password-modal #password-reset fieldset .group-form{
+    margin-bottom: 20px;
+}
+
+.login fieldset .field label, .register fieldset .field label, #forgot-password-modal #password-reset fieldset .group-form {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+}
+.login fieldset .field label:last-child, .register fieldset .field label:last-child, #forgot-password-modal #password-reset fieldset .group-form {
+    text-transform: none;
+    font-weight: normal;
+    display: inline;
+}
+
+.login fieldset .field.required label::after, .register fieldset .field.required label::after {
+    margin-left: 1px;
+    content: "*";
+}
+
+.login fieldset .field label, .login fieldset .field input, .login fieldset .field textarea, 
+.register fieldset .field label, .register fieldset .field input, .register fieldset .field textarea {
+    
+    height: auto;
+    border: none;
+
+	font-family: 'Roboto';
+	font-size: 0.83em;
+	opacity: 0.85;
+	color: #333333;
+}
+
+.login fieldset a {
+	float: right;
+}
+
+.login a:hover, .register a:hover {
+	border-bottom: 1px dotted #888888;
+    color: #0a5181;
+}
+
+
+
+
+.login fieldset .field input, .login fieldset .field textarea, 
+.register fieldset .field input, .register fieldset .field textarea {
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+
+	box-sizing: border-box;
+}
+
+.register fieldset .field input#username, .register fieldset .field input#password {
+    background-color: #e6f2fa;
+}
+
+
+ .login fieldset .field textarea, .register fieldset .field textarea {
+    overflow: auto;
+
+    resize: none;
+}
+
+.login fieldset .field.password {
+    position: relative;
+}
+
+.login fieldset .field .tip, .register fieldset .field .tip {
+    display: block;
+    margin-top: 5px;
+	font-family: 'Roboto';
+	font-size: 0.82em;
+	font-weight: normal;
+	color: #666666;
+}
+
+.login fieldset .field .tip a, .register fieldset .field .tip a {
+	position: absolute;
+    top: 0;
+    right: 1px;
+}
+
+
+.login fieldset .field:last-child, .register fieldset .field:last-child {
+    margin-bottom: 0;
+}
+
+.register fieldset li.field-group.field-gender {
+    display: block;
+}
+.register fieldset li.field-group.field-gender select {
+    width: auto;
+}
+
+
+
+#fieldremember {
+	display: inline-block;
+}
+
+.login form .field.checkbox label, .register form .field.checkbox label {
+    display: inline-block;
+}
+
+.login fieldset .field.checkbox input[type="checkbox"], 
+.register fieldset .field.checkbox input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+#submit {
+    border-radius: 0;
+    font-size: 1.07em;
+}
+
+.login .form-actions button[type="submit"], .register .form-actions button[type="submit"] {
+    background: #efa72c;
+}
+
+.login .form-actions button[type="submit"], .register .form-actions button[type="submit"] {
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.login .form-actions button[type="submit"],
+.register .form-actions button[type="submit"] {
+	background-color: #efa72c;
+	transition: background-color 0.4s;
+}
+.login .form-actions button[type="submit"]:hover, 
+.register .form-actions button[type="submit"]:hover {
+	background-color: #0a5181;
+	cursor: pointer;
+}
+
+.login fieldset .field.checkbox a {
+	float: none;
+}
+
+li.field.checkbox #remember-yes:hover, li.field label.remember-yes:hover {
+	cursor: pointer;
+}
+
+.register fieldset ol.list-input li.field-group label {
+	font-weight: normal;
+	text-transform: none;
+}
+
+
+.register fieldset .group-form-personalinformation .field-education-level, 
+.register fieldset .group-form-personalinformation .field-gender, 
+.register fieldset .group-form-personalinformation .field-yob {
+    vertical-align: top;
+    margin-bottom: 0;
+}
+
+.login fieldset .field-group, .register fieldset .field-group {
+	margin: 0 0 10px 0;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+
+
+
+/*aside*/
+.login aside, .register aside {
+    margin-top: 1.61%;
+    float: left;
+    width: 23.73%;
+}
+
+
+.login aside .helper, .register aside .helper {
+    margin: 0 0 30px 0;
+}
+
+.login aside .helper .title1, .register aside .helper .title1 {
+    padding-bottom: 5px;
+}
+
+.register aside .helper p.title3 {
+	margin-top: 7px;
+}
+
+.register aside .helper a.enter {
+	color: #0a5181;
+    padding: 7px 9px;
+    border: 1px solid #a7a7a7;
+    transition: all 0.4s;
+}
+
+.register aside .helper a.enter:hover {
+	background-color: #0a5181;
+	color: #fbfbfb;
+}
+
+/*course page*/
+
+.courseware .content-wrapper .container {
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.courseware .course-wrapper {
+    overflow: hidden;
+}
+
+.courseware .content-wrapper {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: #e9e9e9;
+}
+
+
+
+.course-index {
+    width: 25.52301255%;
+
+    margin-right: 0.83682008%;
+
+    box-sizing: border-box;
+
+    display: table-cell;
+
+    position: relative;
+    vertical-align: top;
+    background: #fff;
+
+    float: left;
+}
+
+
+.accordion, .accordion ul, .accordion li, .accordion a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.accordion .chapter > a .material-icons {
+    font-size: inherit;
+}
+
+.accordion .chapter > a {
+    display: block;
+    box-sizing: border-box;
+    
+    padding: 14px 11px 15px 11px;
+    border: 1px solid #e9e9e9;
+}
+
+.accordion li .chapter-sub-menu {
+    position: relative;
+    overflow: hidden;
+    display: block;
+
+    padding: 0;
+    background-color: #e6f2fa;
+    box-sizing: border-box;
+    height: 0;
+    
+
+    transition: height infinite ease-in-out;
+    transform: padding 0;
+}
+
+.accordion li:target .chapter-sub-menu {
+    height: 100%;
+    padding: 14px 11px;
+}
+
+
+.accordion .chapter > .chapter-sub-menu a {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+
+    padding: ;
+}
+
+
+.accordion .chapter > a .avatar {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+
+.chapter-sub-menu li a {
+    box-sizing: border-box;
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: block;
+
+    padding: 12px 5px 15px 13px;
+}
+
+.chapter-sub-menu li a p {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.chapter-sub-menu li a p.avatar1 {
+    float: right;
+
+    position: absolute;
+    right: 8px;
+    top: 23px;
+
+    box-sizing: border-box;
+    height: 38px;
+    vertical-align: middle;
+
+    font-weight: bold;
+    color: #009ce6;
+}
+
+.accordion > li > a:hover,
+.accordion > li:active > a {
+
+    background-color: #e6f2fa;
+}
+.accordion li:active a .avatar .material-icons {
+    transform: rotate(180deg);
+}
+
+.chapter-sub-menu li a:hover, .chapter-sub-menu li a.active {
+    background-color: #cfe6f5;
+}
+
+
+
+.course-wrapper > div {
+    display: table;
+}
+
+.course-wrapper .wrapper-course-content {
+    padding: 4.54545454545%;
+
+    background-color: #fff;
+
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+    width: 73.64016736%;
+
+    overflow: hidden;
+}
+
+.course-wrapper  .course-nav {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 4.01046025%;
+    border-bottom: none;
+
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;    
+
+    justify-content: center;
+}
+
+.course-wrapper  .course-nav:last-child {
+    margin-top: 4.01046025%;
+    margin-bottom: 0;
+}
+
+.course-nav .icon-nav  {
+    box-sizing: border-box;
+    display: inline-flex;
+
+    overflow: hidden;
+}
+
+.course-nav .local-nav > li, .course-nav .icon-nav > li {
+    padding: 13px 11px 8px 11px; 
+    box-sizing: border-box;
+} 
+
+.course-nav .local-nav > li {
+    background-color: #cfe6f5;
+    opacity: 1;
+    transform: opacity .2s;
+
+    cursor: pointer;
+}
+.course-nav .local-nav > li:active, .course-nav .local-nav > li:hover {
+    opacity: .65;
+}
+.course-nav .local-nav > li.turn-left {
+    border-top-left-radius: 30.76923076%;
+    border-bottom-left-radius: 30.76923076%;
+}
+.course-nav .local-nav > li.turn-right {
+    border-top-right-radius: 30.76923076%;
+    border-bottom-right-radius: 30.76923076%;
+}
+
+.course-nav .icon-nav > li {
+    background-color: #e6f2fa;
+    cursor: pointer;
+}
+.course-nav .icon-nav > li:active, .course-nav .icon-nav > li:hover {
+    background-color: #cfe6f5;
+}
+
+.course-nav > .material-icons {
+    font-size: 1.5em;
+}
+
+.task {
+    box-sizing: border-box;
+    padding-bottom: 3.75469336%;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 3.75469336%;
+}
+
+.tasks-to-do .task .task-heading {
+    display: inline-flex;
+    width: 100%;
+
+    margin-bottom: 3.1289%;
+}
+
+.tasks-to-do .task .task-heading .title-colored {
+    margin-right: 2.0025%;
+}
+.tasks-to-do .task .task-heading .title2 {
+    align-self: baseline;
+}
+
+.task .title-accordion1 {
+    margin-bottom: 2.8646%;
+}
+
+.task form {
+    min-width: 100px;
+    width: 100%;
+    display: inline-flex;
+}
+.task form .indicator-container {
+    padding-right: 1.3%;
+    border-right: 1px solid #888888;
+}
+.task form .indicator-container .material-icons {
+    font-size: inherit;
+    font-weight: normal;
+}
+.task form fieldset {
+    border: none;
+    display: flex;
+}
+
+.task form fieldset label {
+    padding-bottom: 18.23%;
+}
+.task form fieldset label:last-child {
+    padding-bottom: 0;
+}
+
+
+.accepting .check, .accepting .save {
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-size: 0.85em;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.accepting .check {
+    margin-right: 1.30208333%;
+    padding: 1.171875%;
+    background-color: #fff;
+    color: #0a5181;
+
+    border: 1px solid #0a5181;
+    transition: all 0.2s ease-in-out;
+}
+
+.accepting .check:hover, .accepting .check:active {
+    background-color: #0a5181;
+    color: #fff;
+    border: 1px solid #0a5181;
+}
+
+.accepting .save {
+    padding: 1.30208333%;
+    background-color: #f0a612;
+    color: #fff;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.accepting .save:hover, .accepting .save:active {
+    background-color: #0a5181;
+}
+
+
+.task .accepting {
+    margin-top: 2.61096605%;
+
+
+}
+
+.accepting .task-feedback {
+    margin-top: 1.04166666%;
+    margin-left: 1.30208333%;
+}
+
+.discussing {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    margin: 2.6% 0;
+    padding: 2.6%;
+    background: #e9e9e9 !important;
+
+    overflow: hidden;
+}
+
+
+
+.discussion-show {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
+.discussion-show, .discussion-show .link1, .discussion-show .material-icons {
+    color: #f0a612;
+    border: 0;
+    float: left;
+    font-size: inherit;
+    box-sizing: border-box;
+
+    padding: 1.4323%;
+
+    transition: all 0.2s ease-in-out;
+}
+.discussion-show:hover, .discussion-show:hover .link1, .discussion-show:active, .discussion-show:active .link1,
+.discussion-show:hover .material-icons, .discussion-show:active .material-icons {
+    color: #0a5181;
+}
+
+
+.new-post-btn{
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.new-post-btn, .new-post-btn .link1, .new-post-btn .material-icons {
+    
+    color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    font-size: inherit;
+
+    padding: 1.4323%;
+
+    background-color: #0a5181;
+    transition: all 0.2s ease-in-out;
+}
+.new-post-btn, .new-post-btn .link1 {
+    float: right;
+}
+.new-post-btn:hover, .new-post-btn:hover .link1, .new-post-btn:active, .new-post-btn:active .link1,
+.new-post-btn:hover .material-icons, .new-post-btn:active .material-icons {
+    color: #0a5181;
+    background-color: #fff;
+    
+}
+.new-post-btn:hover, .new-post-btn:active {
+    border: 1px solid #0a5181;
+}
+
+/*FOOTER*/
+.wrapper-footer {
+    padding: 0 !important;
+
+    width: 100%;
+    border-top: 1px solid #c4c5c7;
+    background-color: #323232;
+    clear: both;
+
+    overflow: hidden;
+}
+
+#footer {
+    background-color: #323232;
+    
+    padding: 50px 0;
+}
+
+.wrapper-footer .container {
+    background-color: #323232;
+    
+    min-width: 760px;
+    max-width: 1190px;
+    width: 80.67226289%;
+
+    font-family: 'Roboto';
+
+    padding: 0 0 20px 0;
+
+    position: relative;
+}
+
+
+
+#footer .info {
+    display: inline;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+#footer .info .col2 {
+    padding: 0 auto !important;
+}
+
+#footer .info .col {
+
+}
+
+#footer .info .col, #footer .info .col2 {
+    width: 33.3%;
+    margin: 0 auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 5.042016%;
+
+    vertical-align: bottom;
+
+    border: 0 !important;
+    box-shadow: 0 !important;
+
+    display: inline;
+}
+
+
+
+#footer .info .col2 .footer_logo {
+    width: 30%;
+    display: block;
+    margin: 0 auto 5px 0;
+}
+
+#footer .info .col2 .footer_logo +p {
+    margin-top: 10px;
+}
+
+#footer .col ul {
+    margin: 5px 0;
+    padding: 0;
+    display: block;
+}
+
+#footer ul li {
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+}
+
+#footer p, #footer a {
+    font-size: 0.75em;
+    color: #fbfbfb;
+    line-height: 1.2em;
+}
+
+.wrapper-footer a {
+    border-bottom: 1px solid #888888;
+}
+
+.wrapper-footer a:hover {
+    border-bottom: 1px solid #fbfbfb;
+}
+
+
+
+
+#footer .col1 {
+    display: block;
+
+    margin: 0 auto; 
+
+    text-align: center;
+
+    width: auto;
+
+}
+
+#footer .material-icons {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+#footer .col1 .footer-menu-links li {
+    display: inline-block;
+    
+    margin-right: 1.68067226%;
+}
+
+#footer .col1 .copy {
+    margin-top: 0.75%;
+}
+
+
+
+
+/*adaptive*/
+
+@media all and (max-width: 800px) {
+
+.view-login header.global nav, .view-register header.global nav {
+    width: auto;
+
+
+    text-align: center;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 2.5210084%;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.wrapper-footer .container {
+    background-color: #323232;
+    width: 80.67226289%;
+    font-family: 'Roboto';
+    padding: 0 0 20px 0;
+    position: relative;
+}
+
+.view-login .container, .view-register .container, .view-login .introduction, .view-register .introduction {
+    padding: 1.68067226% 1.68067226% 3.36134453% 1.68067226%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: auto;
+
+text-align: center;
+
+
+display: block;
+}
+
+.view-register .introduction header, .view-login .introduction header {
+    margin: 6.5% auto 2.6% auto;
+}
+
+.login .content, .register .content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+
+    text-align: center;
+
+    float: none;
+}
+
+.login aside, .register aside {
+    margin-top: 1.61%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+    float: none;
+    display: block;
+}
+
+.login aside .helper, .register aside .helper {
+    margin: 0 auto 4.054% auto;
+    width: 50%;
+    text-align: left;
+
+}
+
+#login-form, .helper {
+    display: block;
+    text-align: left;
+
+}
+
+
+}
+
+
+
+
+
