@@ -944,6 +944,7 @@ li.field.checkbox #remember-yes:hover, li.field label.remember-yes:hover {
 }
 
 
+
 .accordion .chapter > a .avatar {
     vertical-align: middle;
     box-sizing: border-box;
@@ -965,6 +966,10 @@ li.field.checkbox #remember-yes:hover, li.field label.remember-yes:hover {
 .chapter-sub-menu li a p {
     display: inline-block;
     box-sizing: border-box;
+
+}
+.chapter-sub-menu li a p.text-place {
+    padding-right: 24px;
 }
 
 .chapter-sub-menu li a p.avatar1 {
